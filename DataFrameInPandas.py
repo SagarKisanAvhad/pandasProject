@@ -13,3 +13,7 @@ data = {
 myvar = pd.DataFrame(data)
 print(data)
 print(myvar)
+my = myvar.loc[0]
+print(my)
+my1 = myvar.loc[[0, 1]]
+print(my1)
