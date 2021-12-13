@@ -17,3 +17,5 @@ my = myvar.loc[0]
 print(my)
 my1 = myvar.loc[[0, 1]]
 print(my1)
+myvar1 = pd.DataFrame(data=data, index={"day0", "day1", "day2"})
+print(myvar1.loc["day2"])
